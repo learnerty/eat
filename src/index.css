@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.play{
+  height:100vh;
+  background-color:#ccc;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+}
+.play>div{
+  flex-grow: 1;
+}
+.play p{
+  position: absolute;
+  font-size: 22px;
+}
